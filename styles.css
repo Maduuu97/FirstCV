@@ -1,0 +1,138 @@
+* {
+    padding: 1px;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: auto;
+    background-color:#EAE0DA;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  body{
+    margin:0;
+  }
+  h1{
+    color:#85586F;
+    font-family: 'Julee', cursive;
+  }
+  h3{
+    color:#85586F;
+    font-family: 'PT Sans', sans-serif;
+  }
+  h2{
+    color:#579BB1;
+    font-family: 'Julee', cursive;
+  }
+  h4{
+    color:#579BB1;
+    font-family: 'PT Sans', sans-serif;
+  }
+  p{
+    color: grey;
+    font-family: 'PT Sans', sans-serif;
+  }
+  li{
+    color:grey;
+    font-family: 'PT Sans', sans-serif;
+  }
+  .nav-list {
+    display: flex;
+    margin-right: 2rem;
+    list-style: none;
+  }
+  #navbar a{
+    display:inline-block;
+    color: #579BB1;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 16px;
+  }
+  .first-p{
+    width: 50%;}
+  .me{
+    float: left;
+    border-radius: 50%;
+    width: 300px;
+    margin: 100px;
+   
+   }
+  #About_me h1{
+      color: #85586F;
+      font-size: 45px;
+      margin-top: 100px;
+    }
+  .about{
+
+  }
+  #About_me{
+    background-color: #F7F5EB;
+    border:0px 0px 0px 0px ;
+    width: 100%;
+    height: 500px;
+  }
+.main-section{
+    background-color: #EAE0DA;
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.university{
+  margin-top: 50px;
+}
+.university-img{
+  float: left;
+  width: 300px;
+  margin: 50px;
+}
+.fire-img{
+  float: right;
+  width: 300px;
+  margin: 50px;
+}
+.fire{
+  text-align: right;
+}
+.html-img{
+  float: left;
+  width: 350px;
+  margin: 50px;
+  margin-right: 100px;
+}
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 70vh;
+ background-color: #EAC7C7;
+}
+.btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 2px;
+  color: #579BB1;
+  font-family: 'Zeyada', cursive;
+}
+
+.contact-section-header > h2 {
+  font-size: 4rem;
+}
